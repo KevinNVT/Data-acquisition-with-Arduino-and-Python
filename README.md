@@ -6,7 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/KevinNVT/Data-acquisition-with-Arduino-and-Python)
 ![Follow](https://img.shields.io/github/followers/KevinNVT.svg?style=social&label=Follow&maxAge=2592000)
 
->Data acquisition with Arduino and Python registered in Excel.
+>Data acquisition with Arduino and Python.
 ><br />
 [PyArduino](https://roboticoss.com/modulo-pyarduino-lectura-de-datos/) for data acquisition used.
 >
