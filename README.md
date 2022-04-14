@@ -3,7 +3,7 @@
 ![MadeWPython](http://ForTheBadge.com/images/badges/made-with-python.svg)
 ![MadeWPython](http://ForTheBadge.com/images/badges/built-with-love.svg)
 <br />
-![GitHub last commit](https://img.shields.io/github/last-commit/KevinNVT/Data-acquisition-with-Arduino-and-Python-registered-in-Excel)
+![GitHub last commit](https://img.shields.io/github/last-commit/KevinNVT/Data-acquisition-with-Arduino-and-Python)
 ![Follow](https://img.shields.io/github/followers/KevinNVT.svg?style=social&label=Follow&maxAge=2592000)
 
 >Data acquisition with Arduino and Python registered in Excel.
@@ -88,7 +88,7 @@ Graphic User Interface showing buttons for start and stop, temperature, date, ho
 
 
 
-<img align="left" src="https://github.com/KevinNVT/Data-acquisition-with-Arduino-and-Python-registered-in-Excel/blob/main/img/GUI.jpg" width="350px">
+<img align="left" src="https://github.com/KevinNVT/Data-acquisition-with-Arduino-and-Python/blob/main/img/GUI.jpg" width="350px">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
@@ -96,5 +96,5 @@ Graphic User Interface showing buttons for start and stop, temperature, date, ho
 
 Graph. 
 
-<img align="left" src="https://github.com/KevinNVT/Data-acquisition-with-Arduino-and-Python-registered-in-Excel/blob/main/img/Graph.jpg" width="350px">
+<img align="left" src="https://github.com/KevinNVT/Data-acquisition-with-Arduino-and-Python/blob/main/img/Graph.jpg" width="350px">
 <br />
