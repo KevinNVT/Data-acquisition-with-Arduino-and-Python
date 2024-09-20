@@ -57,13 +57,12 @@ def getValue():
 hilo1 = threading.Thread(target=getValue,
                          daemon=True) #Create a thread before serial communication starts
 
-
-def Iniciar():  #Iniciar = Start
+def Start():  
     global isReceive
     isReceive = True
     hilo1.start()
 
-def Parar():    #Parar = Stop
+def Stop():    
     global isRun
     global y
     isRun=False
@@ -89,12 +88,11 @@ ventana.title("Lectura temperatura")
 ventana.geometry("400x200") #Window size
 ventana["bg"]="gray77"
 
-
-btnIniciar = Button(ventana, text="Iniciar", command = Iniciar)
-btnIniciar["fg"]="black"
-btnIniciar["bg"]="lime green"
-btnIniciar["font"]="Helvetica 12"
-btnIniciar.place(x=30,y=30,width=100,height=60)
+btnStart = Button(ventana, text="Start", command = Start)
+btnStart["fg"]="black"
+btnStart["bg"]="lime green"
+btnStart["font"]="Helvetica 12"
+btnStart.place(x=30,y=30,width=100,height=60)
 
 btnParar = Button(ventana, text= "Parar", command = Parar)
 btnParar["fg"]="black"
