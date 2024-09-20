@@ -94,11 +94,11 @@ btnStart["bg"]="lime green"
 btnStart["font"]="Helvetica 12"
 btnStart.place(x=30,y=30,width=100,height=60)
 
-btnParar = Button(ventana, text= "Parar", command = Parar)
-btnParar["fg"]="black"
-btnParar["bg"]="orange red"
-btnParar["font"]="Helvetica 12"
-btnParar.place(x=150,y=30,width=100,height=60)
+btnStop = Button(ventana, text= "Stop", command = Stop)
+btnStop["fg"]="black"
+btnStop["bg"]="orange red"
+btnStop["font"]="Helvetica 12"
+btnStop.place(x=150,y=30,width=100,height=60)
 
 btnMinimo = Button(ventana, text= "Temperatura Minima", command = Min)
 btnMinimo["fg"]="black"
