@@ -1,27 +1,19 @@
 const int analogPin0 = A0;
-
 int analogValue0;
-
 unsigned long lastTime,sampleTime;
 
 void setup() {
-
   Serial.begin(9600);
-
   analogValue0 = 0;
-
   sampleTime = 40;
   lastTime = millis();
-
 }
 
 void loop() {
-
   if (millis() - lastTime >= sampleTime)
   {
     lastTime=millis();
     analogValue0 = analogRead(analogPin0);
-
     Serial.println(scaling(analogValue0,0,1023,0,100));
   }
 }
