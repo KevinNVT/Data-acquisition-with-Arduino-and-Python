@@ -8,7 +8,7 @@
 
 >Data acquisition with Arduino and Python.
 ><br />
-[PyArduino](https://roboticoss.com/modulo-pyarduino-lectura-de-datos/) for data acquisition used.
+[PyArduino](https://roboticoss.com/modulo-pyarduino-lectura-de-datos/) for data acquisition was used.
 >
 
 ### Features
@@ -27,7 +27,6 @@ python –m pip install tk
 Download [PyArduino](https://roboticoss.com/modulo-pyarduino-lectura-de-datos/) for data acquisition with Arduino. 
 
 ### Get data from Arduino 
-
 ```python
 def getValue():
     global isRun
@@ -86,14 +85,10 @@ def Max():
 
 Graphic User Interface showing buttons for start and stop, temperature, date, hour, temperature min and max. 
 
-
-
 <img align="left" src="https://github.com/KevinNVT/Data-acquisition-with-Arduino-and-Python/blob/main/img/GUI.jpg" width="350px">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-
 ### Real - time graph
-
 Graph. 
 
 <img align="left" src="https://github.com/KevinNVT/Data-acquisition-with-Arduino-and-Python/blob/main/img/Graph.jpg" width="350px">
